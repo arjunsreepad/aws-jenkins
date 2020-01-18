@@ -1,3 +1,5 @@
+# 2 Load balances are exposed one on http and another on https on jenkins.arjunsreepad.com
+
 resource "aws_lb" "master" {
   name                       = "jenkins-master"
   internal                   = false
