@@ -1,17 +1,21 @@
 variable "instance_type" {
   type = string
+  description = "Jenkins master type"
 }
 
 variable "ami_id" {
   type = string
+  description = "Baked packer image id for jenkins master"
 }
 
 variable "key_name" {
   type = string
+  description = "ssh key for master"
 }
 
 variable "vpc_id" {
   type = string
+  
 }
 
 variable "vpc_cidr" {
