@@ -17,8 +17,8 @@ Packer is the tool to bake a AMI using below desired softwares
 # Build Commands
 
 * Building the Jenkins Master AMI
->  packer build jenkins-master/package.json
+>  cd jenkins-master && packer build package.json
 * Building the Jenkins Slave AMI
->  packer build jenkins-slave/package.json
+>  cd jenkins-slave && packer build package.json
 * Building the Grafana and Prometheus AMI
->  packer build grafana-prometheus/package.json
+>  cd grafana-prometheus && packer build package.json
