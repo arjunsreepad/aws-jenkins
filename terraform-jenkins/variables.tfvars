@@ -8,7 +8,7 @@ private_subnet_ids = ["subnet-0e62d0a10de165691", "subnet-0faf580679d665dd0", "s
 public_subnet_ids  = ["subnet-068f52ac5d6963f06", "subnet-00bac09c0bffd3f16", "subnet-00ae28f7188b84169"]
 resources_tags = {
   CostCenter  = "DevOps Team"
-  Name        = "enterprise-Jenkins",
+  Name        = "Enterprise-Jenkins",
   Application = "Jenkins"
 }
 
