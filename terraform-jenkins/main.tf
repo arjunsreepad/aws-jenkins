@@ -1,3 +1,4 @@
+# Below code creates a jenkins master's lauch configaration using pre baked ami which consist of jdk, jenkins and git
 provider "aws" {
   region = "us-west-2"
 }
