@@ -1,3 +1,6 @@
+# Security groups are created for Jenkins master, slaves & bastion host
+# Master can be ssh'ed only from bastion host, similarly slave from master and bastin host
+
 resource "aws_security_group" "master" {
   name        = "jenkins-master"
   description = "Allow TLS inbound traffic"
