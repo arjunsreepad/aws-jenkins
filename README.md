@@ -34,3 +34,5 @@ This repo consist of Terraform and packer files to setup a Scalable Jenkins on A
  6. Jenkins Monitoring Tool
 
 ### Architect Diagram
+### Screenshots
+![Alt text](https://github.com/arjunsreepad/aws-jenkins/raw/master/architect-diagram.jpg "architect diagram")
