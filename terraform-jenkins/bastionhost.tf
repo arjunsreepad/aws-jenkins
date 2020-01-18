@@ -1,4 +1,4 @@
-
+#  Bastion host to connect to jenkins
 resource "aws_instance" "bastionhost" {
   ami           = var.ami_id
   instance_type = "t2.micro"
