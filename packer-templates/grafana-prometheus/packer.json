@@ -25,7 +25,7 @@
         "ami_name": "jenkins-node-base-image-centos-7-{{ timestamp }}",
         "communicator": "ssh",
         "tags": {
-          "Name": "Jenkins Node Image Centos 7 {{ timestamp }}",
+          "Name": "Grafana Prometheus {{ timestamp }}",
           "system": "Jenkins",
           "product": "Jenkins Node",
           "built-by": "DevOps Platform Team",
