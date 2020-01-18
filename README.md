@@ -26,8 +26,8 @@ This repo consist of Terraform and packer files to setup a Scalable Jenkins on A
 	- Creation of Jenkins
  
 ### Necessary Links
-[packer-templates](testfolder/testfile.txt)
- 1. [packer-templates](Packer Code)
+
+ 1. [Packer Code](packer-templates)
  2. VPC Terraform code
  3. Jenkins Terraform Code
  4. Jenkins Link
