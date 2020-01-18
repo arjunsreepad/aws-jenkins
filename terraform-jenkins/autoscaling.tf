@@ -1,3 +1,5 @@
+# LB to ensure high availiablity of master: This ensures min of 1 instance always
+
 resource "aws_autoscaling_group" "master" {
   name                 = "jenkins-master"
   max_size             = 4
@@ -24,7 +26,7 @@ resource "aws_autoscaling_group" "master" {
   }
 }
 
-
+# Auto scaling policy to scale up and scale down master based on CPU utilization. Jenkins scales up on 80% cpu utilization
 resource "aws_autoscaling_policy" "agents-scale-up-master" {
   name                   = "agents-scale-up"
   scaling_adjustment     = 1
