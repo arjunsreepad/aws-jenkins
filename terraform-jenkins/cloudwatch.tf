@@ -1,3 +1,4 @@
+# Cloud watch alarm to scale up / scale down jenkins on load of 80% utilization & to send mail notification
 resource "aws_cloudwatch_metric_alarm" "memory-high" {
   alarm_name          = "mem-util-high-agents"
   comparison_operator = "GreaterThanOrEqualToThreshold"
