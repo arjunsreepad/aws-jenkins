@@ -28,11 +28,11 @@ This repo consist of Terraform and packer files to setup a Scalable Jenkins on A
 ### Necessary Links
 
  1. [Packer Code](packer-templates)
- 2. VPC Terraform code
- 3. Jenkins Terraform Code
- 4. Jenkins Link
+ 2. [VPC Terraform code](terraform-vpc)
+ 3. [Jenkins Terraform Code](terraform-jenkins)
+ 4. [Jenkins Link](https://jenkins.arjunsreepad.com)
  5. Jenkins Credentials : username: admin, password:admin
- 6. Jenkins Monitoring Tool
+ 6. [Jenkins Monitoring Tool](http://35.162.47.154:3000)
 
 ### Architect Diagram
 ![Alt text](https://github.com/arjunsreepad/aws-jenkins/raw/master/architect-diagram.jpg "architect diagram")
