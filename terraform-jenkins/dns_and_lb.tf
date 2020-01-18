@@ -17,7 +17,7 @@ resource "aws_lb_listener" "master" {
   }
 }
 
-/* resource "aws_lb_listener" "master_https" {
+resource "aws_lb_listener" "master_https" {
   load_balancer_arn = aws_lb.master.arn
   port              = "443"
   protocol          = "TLS"
@@ -29,7 +29,7 @@ resource "aws_lb_listener" "master" {
     type             = "forward"
     target_group_arn = aws_lb_target_group.master.arn
   }
-}  */
+}  
 
 resource "aws_lb_target_group" "master" {
   name_prefix = "jm"
