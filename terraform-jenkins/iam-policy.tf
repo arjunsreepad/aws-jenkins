@@ -1,6 +1,6 @@
+# IAM policies for jenkins ec2 plugins and grafan to access cloud watch
 
-
-/* resource "aws_iam_policy" "ec2-policy" {
+ resource "aws_iam_policy" "ec2-policy" {
   name        = "Jenkins-EC2-Policy"
   path        = "/"
   description = "Policy for Jenkins EC2 plugin"
@@ -100,4 +100,3 @@ resource "aws_iam_group_policy_attachment" "jenkins-policy-attach" {
   policy_arn = aws_iam_policy.ec2-policy.arn
 }
 
- */
